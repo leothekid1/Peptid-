@@ -1,0 +1,39 @@
+# Peptidkalkylator - lagg pa iPhones hemskarm
+
+Alla filer i den har mappen ska laddas upp som de ar, med samma filnamn.
+
+## Sa har gor du (GitHub Pages, gratis och permanent)
+
+1. Ga till github.com och skapa ett konto om du inte har ett.
+2. Klicka pa + uppe till hoger -> "New repository".
+   - Namn: peptid
+   - Valj "Public"
+   - Kryssa i "Add a README file"
+   - Klicka "Create repository"
+3. Klicka "Add file" -> "Upload files".
+   Dra in ALLA filer fran den har mappen (index.html, sw.js, manifest.json
+   och alla .png-filer). Klicka "Commit changes".
+4. Ga till "Settings" -> "Pages" i menyn till vanster.
+   Under "Branch" valjer du "main" och mappen "/ (root)". Klicka "Save".
+5. Vanta 1-2 minuter. Ladda om sidan. Du far en adress som ser ut sa har:
+   https://DITTANVANDARNAMN.github.io/peptid/
+
+## Lagg till pa hemskarmen
+
+1. Oppna adressen i **Safari** pa iPhone. Det maste vara Safari.
+2. Tryck pa dela-knappen (fyrkanten med pilen upp) langst ner.
+3. Scrolla ner och valj "Lagg till pa hemskarmen".
+4. Namnet "Peptidkalkylator" och sprut-ikonen fylls i automatiskt. Tryck "Lagg till".
+
+Appen startar nu i helskarm utan adressfalt, och fungerar aven i flygplanslage
+efter forsta besoket tack vare sw.js.
+
+## Om du uppdaterar appen senare
+
+Ladda upp den nya index.html och andra "peptidkalk-v1" till "peptidkalk-v2"
+i sw.js. Annars visar telefonen den gamla cachade versionen.
+
+## Obs
+
+En GitHub Pages-sida ar offentlig - vem som helst med adressen kan oppna den.
+Vill du inte det, se de andra alternativen i chatten.
